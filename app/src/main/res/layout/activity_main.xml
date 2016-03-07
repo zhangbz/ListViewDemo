@@ -5,18 +5,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.janiszhang.listviewdemo.MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentTop="true">
-
-    </android.support.v7.widget.Toolbar>
-
     <FrameLayout
-        android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_add">
 
         <com.example.janiszhang.listviewdemo.MyListView
             android:id="@+id/listview"
