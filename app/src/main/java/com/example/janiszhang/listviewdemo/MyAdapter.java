@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * Created by janiszhang on 2016/3/5.
+ * 使用convertView和ViewHolder进行优化
  */
 public class MyAdapter extends ArrayAdapter<ListViewItem> {
 

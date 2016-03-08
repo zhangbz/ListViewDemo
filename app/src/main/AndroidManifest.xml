@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MultipleListViewActivity">
+
+        </activity>
+        <activity android:name=".ChatListViewActivity"/>
     </application>
 
 </manifest>

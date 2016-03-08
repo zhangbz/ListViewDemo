@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.janiszhang.listviewdemo.MainActivity">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/bt_add">
-
-        <com.example.janiszhang.listviewdemo.MyListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:divider="@null"
-            android:listSelector="@android:color/transparent"
-            android:scrollbars="none">
-
-        </com.example.janiszhang.listviewdemo.MyListView>
-        <ImageView
-            android:id="@+id/empty_view"
-            android:src="@mipmap/ic_launcher"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </FrameLayout>
-
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
     <Button
-        android:id="@+id/bt_add"
+        android:id="@+id/button_multiple_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="add"/>
+        android:text="整合ListView"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/button_chat_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="聊天ListView"
+        android:layout_below="@+id/button_multiple_list_view"/>
+
+
 </RelativeLayout>
